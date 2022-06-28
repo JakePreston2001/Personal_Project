@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Jakes Cool Company
-  productName: HardCandies_V1
+  productName: HardCandies_V2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13207549, g: 0.1277145, b: 0.12880476, a: 1}

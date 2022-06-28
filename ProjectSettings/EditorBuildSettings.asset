@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UPR STUFF/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/UPR STUFF/Scenes/Controls.unity
+    guid: 619fea76e40fa804bb7cb331b33ea492
   m_configObjects: {}

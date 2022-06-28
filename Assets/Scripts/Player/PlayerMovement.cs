@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     #region serialised Fields
     [SerializeField] private CharacterController controller;
     [SerializeField] private Transform Player;
+    [SerializeField] private AudioSource footstep;
+    [SerializeField] private AudioSource Runfootstep;
     [Space]
     [Space]
     [SerializeField] private float WalkSpeed;
@@ -119,6 +121,10 @@ public class PlayerMovement : MonoBehaviour
                 {
                     currantFOV += FOVincrease * Time.deltaTime;
                 }
+                if (!Runfootstep.isPlaying && isGrounded)
+                {
+                    Runfootstep.Play();
+                }
             }
             else if (!isRunning)
             {
@@ -132,8 +138,11 @@ public class PlayerMovement : MonoBehaviour
                 {
                     currantFOV -= FOVincrease * Time.deltaTime;
                 }
+                if (!footstep.isPlaying && isGrounded)
+                {
+                    footstep.Play();
+                }
             }
-            
         }
         else 
         {
@@ -159,6 +168,8 @@ public class PlayerMovement : MonoBehaviour
         if (!isGrounded)
         {
             jumpAnim = 2;
+            footstep.Stop();
+            Runfootstep.Stop();
         }
         #endregion
 

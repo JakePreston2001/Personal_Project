@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{98624C51-FBCA-2C18-9CBE-D1EEDDE1C282}</ProjectGuid>
+    <ProjectGuid>{477BBAB5-374E-11DB-EAC8-660018889C99}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\Objects\changeSceneButton.cs" />
     <Compile Include="Assets\Scripts\Objects\DayNightCycle.cs" />
     <Compile Include="Assets\Scripts\Objects\ExitButton.cs" />
+    <Compile Include="Assets\Scripts\Objects\ToggleControls.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

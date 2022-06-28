@@ -20,6 +20,6 @@ public class ItemCollected : MonoBehaviour
 
     private void Update()
     {
-        objectCollected.text = "Number of Objects collected: " + objectNumber;
+        objectCollected.text = "Cubes collected: " + objectNumber;
     }
 }
