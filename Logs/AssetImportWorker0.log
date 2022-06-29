@@ -153,3 +153,4 @@ Received Import Request.
 Start importing Assets/SFX/Voice/BONES.wav using Guid(f6a27d9d7de3cb5409734a7a9ba8e124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdac889153c8aaab7dc953af1467a40') in 0.013269 seconds 
   Import took 0.018704 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
